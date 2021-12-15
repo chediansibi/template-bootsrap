@@ -1,0 +1,273 @@
+
+.navbar
+{
+	margin-bottom: 0;
+}
+.search_form input
+{
+ background-color: transparent;
+ border: 0;
+ box-shadow: none;
+}
+.search_form  .input-group-addon
+{
+  border: 0;
+  background-color: transparent;
+}
+.nav-top
+{
+	background-color: #d3d3d3;
+}
+.search_form .input-group:hover
+{
+	border-bottom: 1px solid #000 ;
+}
+.nav-bot 
+{
+	height: 100px;
+	padding: 20px;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand
+{
+	margin-left:25px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.navbar-right
+{
+	    font-size: 15px;
+
+}
+.shop
+{
+	background-image: url("./../images/shop.jpg");
+	height: 500px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+.shop .lead
+{
+	width: 40%;
+    margin: 15% auto;
+    text-align: center;
+    background: #8d838387;
+    color: #fff;
+    padding: 30px;
+    font-weight: bold;
+    border-radius: 30%;
+
+}
+.shop .lead h1 
+{
+	font-size: 50px;
+}
+.shop .btn-primary
+{
+	background-color: #0c0c0c;
+    border-color: #0a0a0a;
+    border-radius: 30%;
+}
+.shop .btn-primary:hover
+{
+	background-color: #fff;
+    border-color: #fff;
+    color: #0c0c0c;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+}
+.free
+{
+	background-color: #d7d0d0;
+	height: 70px;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 20px;
+}
+.year h2
+{
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 12px;
+	position: relative;
+}
+.year h2::after
+{
+    background: black;
+    content: '';
+    width: 50px;
+    height: 2px;
+    color: black;
+    position: absolute;
+    bottom: -30px;
+    left: 45%;
+
+} 
+.year p
+{
+	margin-top: 50px;
+	margin-bottom:50px;
+	font-size: 35px
+}
+.column-1
+{
+	background-image: url('./../images/mon.jpg');
+	height: 400px;
+    width: 100%;
+	background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.column-1 .lien
+{
+	background-color: black;
+	position: absolute;
+	width: 100%;
+    height: 70px;
+    bottom: 0;
+}
+.column-1 .lien p
+{
+	font-size: 20px;
+    margin-top: 20px;
+  display: block;
+    color: white;	
+}
+.column-1 .lien a
+{display: none;
+ color: white;
+ margin-top: 20px;
+ font-size: 20px;
+ text-decoration: none;
+}
+.column-1 .lien:hover p
+{
+	display: none;
+	
+}
+.column-1 .lien:hover a
+{
+	display: block;
+
+}
+.column-3 .lien-1
+{
+	background-color: black;
+	position: absolute;
+	width: 100%;
+    height: 70px;
+    bottom: 0;
+}
+.column-3 .lien-1 p
+{
+	font-size: 20px;
+    margin-top: 20px;
+  display: block;
+    color: white;	
+}
+.column-3 .lien-1 a
+{display: none;
+ color: white;
+ margin-top: 20px;
+ font-size: 20px;
+ text-decoration: none;
+}
+.column-3 .lien-1:hover p
+{
+	display: none;
+	
+}
+.column-3 .lien-1:hover a
+{
+	display: block;
+
+}
+.column-2
+{
+	background-image: url('./../images/sac.jpg');
+	height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.column-2 a
+{
+	font-size: 70px;
+    color: #000;
+    letter-spacing: 7px;
+    text-decoration: none;
+}
+
+.column-2 a:hover
+{
+	color: #c0c0c0;
+	text-decoration: none;
+	-webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+.column-3
+{
+	background-image: url('./../images/lunettes.jpg');
+	height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.feet
+{
+	margin-top: 50px;
+	background: black;
+	padding: 20px 0 40px;
+	color: gray;
+}
+.feet h5
+{
+	font-size: 15px;
+    padding-bottom: 20px;
+}
+.feet .social a
+{
+	color: gray;
+}
+.feet .form-group input
+{
+	background-color: gray;
+    border-color: gray;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.feet .form-group input:hover
+{
+   background-color: #d5cece;
+}
+.feet  .btn-default
+{
+	margin-bottom: 20px;
+    width: 300px;
+    color: #6c6a6a;
+    background-color: #e5e1e1;
+    background-color: #e5e1e1;	
+}
+.feet  .btn-default:hover
+{
+	 background-color: #ffffff;
+    background-color: #ffffff;	
+}
+.feet .contact a
+{
+	color: gray;
+	text-decoration: underline; 
+	margin-bottom: 20px;
+}
+
+.feet .copyright a
+{
+	color: gray;
+	text-decoration: underline; 
+}
